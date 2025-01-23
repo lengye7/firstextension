@@ -1,0 +1,36 @@
+{
+  "name": "firstsnippets",
+  "displayName": "firstsnippets",
+  "description": "first snippets for cpp",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "cpp",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "",
+        "path": "./snippets/all-language.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/javascript.code-snippets"
+      }
+    ]
+  }
+}

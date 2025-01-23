@@ -1,0 +1,7 @@
+{
+    "current time":{
+        "prefix": ["current-time"],
+        "body": ["$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND 本地时间"],
+        "description": "适用于所有语言的当前时间代码片段"
+    }
+}

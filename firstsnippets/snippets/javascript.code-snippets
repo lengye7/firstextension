@@ -1,0 +1,7 @@
+{
+    "js for in":{
+        "prefix": ["for-in"],
+        "body": ["for $1 in $2{\n\t\n}"],
+        "description": "js的for in循环。"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "simple for loop":{
+        "prefix": ["for","for-index"],
+        "body":["for(int index=0;index<100;index++)"],
+        "description":"固定格式的代码片段，没有占位符。"
+    },
+    "for loop multiline":{
+        "prefix": ["for-multi"],
+        "body": ["for(int index=0;index<100;index++){\n\t\n}"],
+        "description": "多行for循环代码片段。"
+    },
+    "for editpoint":{
+        "prefix": ["for-edit"],
+        "body": ["for($1;$2;$3){\n\t$4\n}"],
+        "description": "多行编辑点for循环代码片段。"
+    },
+    "default value for":{
+        "prefix": ["for-default"],
+        "body": ["for(${1:int index=0};${2:};${3:index++}){\n\t$4\n}"],
+        "description": "多行编辑点与默认值for循环。"
+    },
+    "choice for":{
+        "prefix": ["for-choice"],
+        "body": ["for(${1|index=1,index=2,index=3|};$2;index++){\n\t$3\n}"],
+        "description": "多个可选值编辑点for循环。"
+    },
+    "data time":{
+        "prefix": ["current-time"],
+        "body": ["$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND 本地时间"],
+        "description": "当前本机的时间。"
+    }
+}

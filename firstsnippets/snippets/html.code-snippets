@@ -1,0 +1,7 @@
+{
+    "html template":{
+        "prefix": ["html"],
+        "body": ["<html>\n\t<head>\n\t$1</head>\n\t<body>\n\t$2</body>\n</html>"],
+        "description": "html的初级模板。"
+    }
+}
